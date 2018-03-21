@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="world.chat.kishor.scientificcalculator.MainActivity">
+
+    <Button
+        android:id="@+id/equalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/zeroButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/oneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zeroButton"
+        android:layout_alignBottom="@+id/zeroButton"
+        android:layout_toEndOf="@+id/zeroButton"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/oneButton"
+        android:layout_alignBottom="@+id/oneButton"
+        android:layout_toEndOf="@+id/oneButton"
+        android:text="."
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sqrButton"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dotButton"
+        android:layout_alignBottom="@+id/dotButton"
+        android:layout_toEndOf="@+id/dotButton"
+        android:text="√"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lnButton"
+        android:textAllCaps="false"
+        android:text="log"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/threeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lgButton"
+        android:layout_alignBottom="@+id/lgButton"
+        android:layout_toEndOf="@+id/zeroButton"
+        android:text="3"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/twoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dotButton"
+        android:layout_toEndOf="@+id/threeButton"
+        android:text="2"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/eButton"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sqrButton"
+        android:layout_toEndOf="@+id/twoButton"
+        android:text="e"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fourButton"
+        android:layout_alignBottom="@+id/fourButton"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:text="ln"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fiveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lnButton"
+        android:layout_alignBottom="@+id/lnButton"
+        android:layout_toEndOf="@+id/zeroButton"
+        android:text="5"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fourButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twoButton"
+        android:layout_toEndOf="@+id/fiveButton"
+        android:text="4"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/plusButton"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eButton"
+        android:layout_toEndOf="@+id/fourButton"
+        android:text="+"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lnButton"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:text="tan"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sevenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tanButton"
+        android:layout_alignBottom="@+id/tanButton"
+        android:layout_toEndOf="@+id/lnButton"
+        android:text="7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sixButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fourButton"
+        android:layout_toEndOf="@+id/sevenButton"
+        android:text="6"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/minusButton"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/plusButton"
+        android:layout_toEndOf="@+id/fourButton"
+        android:text="-"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tanButton"
+        android:layout_alignParentStart="true"
+        android:text="cos"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nineButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/factButton"
+        android:layout_toEndOf="@+id/tanButton"
+        android:text="9"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/eightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sixButton"
+        android:layout_toEndOf="@+id/sevenButton"
+        android:text="8"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/minusButton"
+        android:layout_toEndOf="@+id/sixButton"
+        android:text="*"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/factButton"
+        android:layout_alignBottom="@+id/factButton"
+        android:layout_alignParentStart="true"
+        android:text="sin"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/divisonButton"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/clearButton"
+        android:layout_alignBottom="@+id/clearButton"
+        android:layout_toEndOf="@+id/eightButton"
+        android:text="/"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/factButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cosButton"
+        android:layout_toEndOf="@+id/sinButton"
+        android:text="!"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/powerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/divisonButton"
+        android:layout_toEndOf="@+id/factButton"
+        android:text="^"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/piButton"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/factButton"
+        android:layout_alignParentStart="true"
+        android:text="π"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sinButton"
+        android:layout_alignBottom="@+id/sinButton"
+        android:layout_toEndOf="@+id/nineButton"
+        android:text="c"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputresult"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_above="@+id/powerButton"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/backspace"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/divisonButton"
+        android:layout_toEndOf="@+id/powerButton"
+        android:text="⌫"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

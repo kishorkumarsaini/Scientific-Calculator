@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="oneButton" type="id" />
+    <item name="twoButton" type="id" />
+    <item name="threeButton" type="id" />
+    <item name="fourButton" type="id" />
+    <item name="fiveButton" type="id" />
+    <item name="sixButton" type="id" />
+    <item name="sevenButton" type="id" />
+    <item name="eightButton" type="id" />
+    <item name="nineButton" type="id" />
+    <item name="zeroButton" type="id" />
+    <item name="plusButton" type="id" />
+    <item name="minusButton" type="id" />
+    <item name="multiplyButton" type="id" />
+    <item name="divisonButton" type="id" />
+    <item name="sinButton" type="id" />
+    <item name="cosButton" type="id" />
+    <item name="tanButton" type="id" />
+    <item name="equalButton" type="id" />
+    <item name="clearButton" type="id" />
+    <item name="lgButton" type="id" />
+    <item name="lnButton" type="id" />
+    <item name="factButton" type="id" />
+    <item name="sqrButton" type="id" />
+    <item name="eButton" type="id" />
+    <item name="dotButton" type="id" />
+    <item name="piButton" type="id" />
+    <item name="powerButton" type="id" />
+    <item name="inputresult" type="id" />
+</resources>
